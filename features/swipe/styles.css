@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  max-width: 1200px;
+  display: flex;
+}
+
+.article {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.reject,
+.approve {
+  text-align: center;
+  width: 200px;
+}
+
+.reject.dragover {
+  background-color: firebrick;
+}
+
+.approve.dragover {
+  background-color: limegreen;
+}
+
+img {
+  max-width: 100%;
+}
+
+.dragged {
+  opacity: 0.5;
+}
+
+.rejected {
+  background-color: firebrick;
+}
+
+.approved {
+  background-color: limegreen;
+}
